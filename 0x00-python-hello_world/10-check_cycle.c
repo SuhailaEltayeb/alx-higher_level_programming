@@ -7,4 +7,19 @@
  */
 int check_cycle(listint_t *list)
 {
-
+	listint_t *x, *y;
+	if (!list || !list->next)
+		return(0);
+	x = list;
+	y = list;
+	while (x != NULL && y != NULL && x->next != NULL)
+	{
+		y = y->next;
+		x = x->next->next;
+		if (y == x)
+		{
+			return (1);
+		}
+	}
+	return (0);
+}
