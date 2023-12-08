@@ -6,7 +6,7 @@ void print_python_bytes(PyObject *p);
  * print_python_bytes - function to print python pytes object information
  * @p: PyBytesObject
  *
- * Return: void
+ * Return: nothing
  */
 void print_python_bytes(PyObject *p)
 {
@@ -39,7 +39,7 @@ void print_python_bytes(PyObject *p)
 /**
  * print_python_list - function to print python list
  * @p:  PyBytesObject
- * Return: void
+ * Return: nothing
  */
 void print_python_list(PyObject *p)
 {
