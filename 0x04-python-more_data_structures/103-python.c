@@ -5,7 +5,6 @@ void print_python_bytes(PyObject *p);
 /**
  * print_python_bytes - function to print python pytes object information
  * @p: PyBytesObject
- *
  * Return: nothing
  */
 void print_python_bytes(PyObject *p)
