@@ -11,4 +11,4 @@ class Square:
         Arguments:
             size: side of square length.
         """
-        my_square.__size= size
+        my_square.__size = size
