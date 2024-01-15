@@ -93,7 +93,7 @@ class Rectangle(Base):
             self.y = y
 
     def update(self, *args, **kwargs):
-        """Function to Updates instance attributes using no-keyword & keyword args."""
+        """Func.2 Update instance attr. using no-keyword/ keyword args."""
         # print(args, kwargs)
         if args:
             self.__update(*args)
