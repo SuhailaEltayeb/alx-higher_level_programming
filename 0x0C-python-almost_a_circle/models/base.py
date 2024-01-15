@@ -100,3 +100,29 @@ class Base:
                          "x": row[2], "y": row[3]}
                 ret.append(cls.create(**d))
         return ret
+
+    @staticmethod
+    def draw(list_rectangles, list_squares):
+        import turtle
+        import time
+        from random import randrange
+        turtle.Screen().colormode(255)
+        for i in list_rectangles + list_squares:
+            trtl = turtle.Turtle()
+            trtl.pensize(1)
+            trtl.color((randrange(255), randrange(255), randrange(255)))
+            trtl.pendown()
+            trtl.penup()
+            trtl.setpos((i.x + t.pos()[0], i.y - t.pos()[1]))
+            trtl.pensize(10)
+            trtl.forward(i.width)
+            trtl.left(90)
+            trtl.forward(i.height)
+            trtl.left(90)
+            trtl.forward(i.height)
+            trtl.left(90)
+            trtl.forward(i.width)
+            trtl.left(90)
+            trtl.end_fill()
+
+        time.sleep(5)
