@@ -37,7 +37,7 @@ class Square(Rectangle):
             self.y = y
 
     def update(self, *args, **kwargs):
-        """function to ssign attributes to class instance using *args/**kwargs"""
+        """function ssign attributes 2 instance using *args/**kwargs"""
         if args:
             self.__update(*args)
         elif kwargs:
