@@ -58,5 +58,5 @@ class TestSquare(unittest.TestCase):
         r = Square(2)
         self.assertEqual(r.id, 99)
 
-    if __name__ == "__main__":
+if __name__ == "__main__":
     unittest.main()

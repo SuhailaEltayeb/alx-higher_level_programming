@@ -65,5 +65,5 @@ class TestRectangle(unittest.TestCase):
                 setattr(r, attribute, 0)
             self.assertEqual(str(e.exception), s)
 
-    if __name__ == "__main__":
+if __name__ == "__main__":
     unittest.main()

@@ -59,5 +59,5 @@ class TestBase(unittest.TestCase):
         b2 = Base()
         self.assertEqual(b1.id + 1, b2.id)
 
-    if __name__ == "__main__":
-    unittest.main()
+ if __name__ == "__main__":
+     unittest.main(i)
