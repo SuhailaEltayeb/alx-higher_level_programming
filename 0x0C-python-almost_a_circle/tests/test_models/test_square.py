@@ -48,8 +48,8 @@ class TestSquare(unittest.TestCase):
         """Tests constructor signature test"""
         with self.assertRaises(TypeError) as e:
             r = Square(1, 2, 3, 4, 5)
-        s = "__init__() takes from 2 to 5 positional arguments but 6 \
-                were given"
+        s = "__init__() takes from 2 to 5 positional arguments \
+                but 6 were given"
         self.assertEqual(str(e.exception), s)
 
     def test_E_id_inherited(self):
@@ -57,6 +57,7 @@ class TestSquare(unittest.TestCase):
         Base._Base__nb_objects = 98
         r = Square(2)
         self.assertEqual(r.id, 99)
+
 
 if __name__ == "__main__":
     unittest.main()

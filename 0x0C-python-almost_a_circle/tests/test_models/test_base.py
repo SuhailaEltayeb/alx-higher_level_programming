@@ -14,7 +14,6 @@ class TestBase(unittest.TestCase):
         Base._Base__nb_objects = 0
         pass
 
-
     def tearDown(self):
         """After test claen up"""
         pass
@@ -59,5 +58,6 @@ class TestBase(unittest.TestCase):
         b2 = Base()
         self.assertEqual(b1.id + 1, b2.id)
 
- if __name__ == "__main__":
-     unittest.main(i)
+
+if __name__ == "__main__":
+    unittest.main(i)
