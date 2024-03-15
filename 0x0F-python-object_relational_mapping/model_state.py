@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-'''Script contains class definition of State & instance Base = declarative_base()'''
+'''class definition of State & instance Base = declarative_base()'''
 import sys
 from model_state import Base, State
 
