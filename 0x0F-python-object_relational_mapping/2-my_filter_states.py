@@ -1,6 +1,5 @@
 #!/usr/bin/python
-'''Script to take an argument and display all values in the
-states table where name matches the argument'''
+'''Script to display states values based on input arguments'''
 import MySQLdb
 import sys
 
