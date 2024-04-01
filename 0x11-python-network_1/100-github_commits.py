@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 '''
-Script to list 10 commits (from the most recent to oldest) 
+Script to list 10 commits (from the most recent to oldest)
 of the repository “rails” by the user “rails”
 '''
 import requests
